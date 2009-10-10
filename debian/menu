@@ -1,0 +1,5 @@
+?package(bombardier):needs="text" \
+	section="Games/Arcade" \
+	title="bombardier" \
+	command="/usr/games/bombardier" \
+	geometry="80x25"

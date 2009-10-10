@@ -1,0 +1,48 @@
+#!/usr/bin/make -f
+#Rules file for bombardier (C) RISKO Gergely, 2001.
+#Based on Joey Hess's example. Under GPL v2.
+
+export DH_COMPAT=1
+
+build: build-stamp
+build-stamp:
+	dh_testdir
+	$(MAKE)
+	touch build-stamp
+
+clean:
+	dh_testdir
+	dh_testroot
+	rm -f build-stamp
+	-$(MAKE) clean
+	dh_clean
+
+install: build
+	dh_testdir
+	dh_testroot
+	dh_clean -k
+	dh_installdirs
+	$(MAKE) install DESTDIR=`pwd`/debian/tmp
+
+binary-indep: build install
+
+binary-arch: build install
+#	dh_testversion
+	dh_testdir
+	dh_testroot
+	dh_installdocs
+	dh_installmenu
+	dh_installmanpages
+	dh_installchangelogs
+	dh_link
+	dh_strip
+	dh_compress
+	dh_fixperms -Xgames/bombardier
+	dh_installdeb
+	dh_shlibdeps
+	dh_gencontrol
+	dh_md5sums
+	dh_builddeb
+
+binary: binary-indep binary-arch
+.PHONY: build clean binary-indep binary-arch binary install

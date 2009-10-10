@@ -1,0 +1,53 @@
+Version 0.1	-- released at 2000. 10. 21. 23:43 +0200
+========================================================
+* first release, which implements things like texts, bomb, houses, airplane
+* hall of fame support, setgid games
+
+Version 0.2	-- released at 2000. 10. 25. 21:40 +0200
+========================================================
+* now the default hall of fame is builded about Hungarian scientists
+* Lenart, Janos's e-mail address changed in README
+* different difficults to cities
+* fast landing if no blocks remaining, no more boring :)
+* pause and quit were added (README also modified)
+* bugfixes
+
+Version 0.3	-- released at 2000. 10. 29. 22:25 +0200
+========================================================
+* speed control added, you can use it with keys 1..9 (idea from Risko Peter)
+* month bug fixed (0 was january, and now 1 is january)
+* bugfixes
+
+Version 0.4	-- released at 2000. 11. 19. 20:26 +0100
+========================================================
+* total rewrite, now everything is nice ;)
+* many many bug is fixed by the new structure
+* support for larger consoles, then the program will fix the extra space with
+  the name of the bug reporter of this
+* my email address changed
+
+Version 0.5	-- released at 2000. 11. 23. 21:52 +0100
+========================================================
+* a bug is fixed, when the terminal was too narrow or not tall enough,
+  then bombardier was frozen. But now you get a warning message. Thanks
+  Christian T. Steigies <cts@debian.org> for bug-reporting.
+
+Version 0.6	-- released at 2000. 12. 13. 21:32 +0100
+========================================================
+* Dedicated space... are replaced with points
+* Manpage written
+
+Version 0.7.2   -- released at 2001. 04. 02. 23:08 +0100
+========================================================
+* resize bug fixed (closes: Bug#82234)
+    Oh, this bugfix is not an April 1 joke!
+    I really hope that Ocsi's mother will get better! ;)
+* speed after restart fixed
+* names changed from Lenart, Janos to LENART Janos form and from Gergely 
+    Risko to RISKO Gergely form.
+* the dh_suidregister removed
+* fhs violation fixed
+* version set to 0.7.2 in VERSION
+
+----------------- END OF FILE, FUTURE CHANGELOG IS DEBIAN/CHANGELOG!!! ------------------
+Closed at 2001. 04. 02. 23:10
