@@ -66,8 +66,7 @@ void hof(struct struc_state *state)
     fd=open("/var/games/bombardier/bdscore", O_RDWR);
     if (fd<0)
     {
-        fd=open("/var/games/bombardier/bdscore", O_RDWR | O_CREAT);
-        fchmod(fd, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
+        fd=open("/var/games/bombardier/bdscore", O_RDWR | O_CREAT, S_IRUSR | S_IWUSR | S_IRGRP | S_IWGRP | S_IROTH);
         if (fd>0)
         {
             defhof(fd);
