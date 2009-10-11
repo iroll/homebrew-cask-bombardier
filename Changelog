@@ -48,6 +48,5 @@ Version 0.7.2   -- released at 2001. 04. 02. 23:08 +0100
 * the dh_suidregister removed
 * fhs violation fixed
 * version set to 0.7.2 in VERSION
-
------------------ END OF FILE, FUTURE CHANGELOG IS DEBIAN/CHANGELOG!!! ------------------
-Closed at 2001. 04. 02. 23:10
+	
+This file is not maintained, further changes in debian/changelog.

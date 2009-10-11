@@ -1,13 +1,9 @@
-#define _GNU_SOURCE
-#define __GNUC_VA_LIST_1
-/*
-    The above line is for alpha, because debian porters/admins don't help
-    me getting an alpha acc, or boot up lully, faure, etc.
-    If it doesn't work I'm sorry. If it push down other archs, sorry.
-    Please see the bug report for bombardier which is reported by ivan e moore.
+/* Bombardier */
+/* The GNU Bombing utility */
+/* Copyright (C) 2001, 2009 Gergely Risko */
+/* Can be licensed under the terms of GPL v3 or above */
 
-    I give the copyright of the above line to (C) 2001. Ivan E. Moore, James Troup.
-*/
+#define _GNU_SOURCE
 #include <stdio.h>
 #include <string.h>
 #include <curses.h>
@@ -18,3 +14,4 @@
 #include <signal.h>
 #include <stdio.h>
 #include <sys/types.h>
+#include <sys/stat.h>

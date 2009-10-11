@@ -1,14 +1,35 @@
+bombardier (0.8.3) unstable; urgency=low
+
+  * Updated to standards-version 3.8.3.0.
+  * Added gameplay to the description field in debian/control.
+  * Removed obsolete conflict with suidmanager.
+  * Added Vcs-{Browser,Git} to debian/control.
+  * Removed obsolete debian/postinst.
+  * Updated to use debhelper 7.
+  * Removed the silly texts.en and txttotextsh.pl.
+  * Updated copyright statements.
+  * Do not compile with -Werror, it makes future compilations risky.
+  * Updated README and the manpage.
+  * Removed README.Debian.
+  * Updated copyright to include the git pointer to collab-maint.
+  * Include sys/stat.h, needed by fchmod constants (closes: #461821).
+  * Fixed premissions of /var/games/bombardier/bdscore.
+  * Handle creation/purge of default high score file from postinst/postrm.
+  * Changed license to GPLv3.
+
+ -- RISKO Gergely <risko@debian.org>  Sun, 11 Oct 2009 15:20:20 +0300
+
 bombardier (0.8.2.2) unstable; urgency=low
 
   * Non-maintainer upload.
-  *s/PAQUETE/bombardier/g in postinst. Sorry.  
+  * s/PAQUETE/bombardier/g in postinst. Sorry.
 
  -- Amaya Rodrigo Sastre <amaya@debian.org>  Wed, 12 Jul 2006 21:36:35 +0200
 
 bombardier (0.8.2.1) unstable; urgency=low
 
   * Non-maintainer upload.
-  * Get rid of the /usr/doc link in postinst (Closes: #359366). 
+  * Get rid of the /usr/doc link in postinst (Closes: #359366).
   * Add Upstream Author to copyright file (Closes: #302952).
 
  -- Amaya Rodrigo Sastre <amaya@debian.org>  Wed, 12 Jul 2006 12:54:45 +0200
@@ -44,12 +65,12 @@ bombardier (0.7-1) unstable; urgency=low
     Oh, this bugfix is not an April 1 joke!
     I really hope that Ocsi's mother will get better! ;)
   * speed after restart fixed
-  * names changed from Lenart, Janos to LENART Janos form and from Gergely 
+  * names changed from Lenart, Janos to LENART Janos form and from Gergely
     Risko to RISKO Gergely form.
   * the dh_suidregister removed
 
  -- RISKO Gergely <risko@debian.org>  Wed, 31 Mar 2001 21:34:00 +0200
- 
+
 bombardier (0.6-1) unstable; urgency=low
 
   * manpage included
@@ -69,20 +90,20 @@ bombardier (0.4-1) unstable; urgency=low
   * Upstream update.
   * Build-Depends added. (thanks Martin ;) )
   * E-mail address changed.
-  
+
  -- Gergely Risko <risko@debian.org>  Mon, 19 Nov 2000 20:27:00 +0100
 
 bombardier (0.3-1) unstable; urgency=low
 
   * Upstream update.
-  
+
  -- Gergely Risko <risko@atom.hu>  Mon, 29 Oct 2000 22:27:00 +0200
 
 bombardier (0.2-1) unstable; urgency=low
 
   * Upstream update.
   * The package is also good for policy 3.1.1.0 so control was changed.
-  
+
  -- Gergely Risko <risko@atom.hu>  Wed, 25 Oct 2000 21:40:00 +0200
 
 bombardier (0.1-1) unstable; urgency=low

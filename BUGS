@@ -1,0 +1,2 @@
+The highscore file should be written in some fixed charset (say UTF-8)
+always, and displayed according to the current charset on the machine.

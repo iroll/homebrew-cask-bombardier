@@ -1,38 +1,36 @@
+Bombardier, The GNU Bombing utility
+Copyright (C) 2001, 2009 Gergely Risko  <gergely@risko.hu>
+Can be licensed under the terms of GPL v3 or above
+
 Bombardier
 ==========
+Bombardier is The GNU Bombing utility
 
-Bombardier is The GNU Bombing utility ;)
-
-It is an extremely great game. You can play it with a simple UNIX account, 
-this can be any POSIX unix which support ncurses. But the game is only
-tested with Linux until now.
-
-HEY! We have to say that Windows NT, Windows 95 and other trademarks or
-products of Microsoft Corporation are not POSIX Unixes anyway ;)
-If anyone will compile this software for these peace of fantastic softwares,
-he will get to the hell...
+For compilation gcc and ncurses development files should be enough.
 
 USAGE:
     You can use SPACE to bomb and 'p' or 'P' to pause.
     You can quit with 'q' or 'Q'!
     You can set speed with 1 to 9, 1 is the slowest and 9 is the fastest!
-    
-THANKS:
-  * To the original bombardier programmers. I don't know their names, but 
-    I wanna. So guys! If you know, who did the bombardier for Commodore 
-    Plus 4, please write me.
-  * Jochen Voss <voss@mathematik.uni-kl.de>
-      To the author of moon-buggy, because it is an other good console game.
-  * LENART Janos <ocsi@irisz.hu>
-      For the idea. And for testing, bug reports.
-  * RISKO Peter <peter@risko.hu>
-      He gave me the original idea of console games, and he found the 
-      moon-buggy in debian potato.
-      For lot of testing and bug reports about version 0.1 and later.
-  * Linus Torvalds
-      To the programmer of my OS.
-  * To all Debian folks, for the best distribution.
 
-Good luck,
-RISKO Gergely
-risko@debian.org
+Check out the manpage too (bombardier.6)!
+
+THANKS:
+Simon Taylor
+      The author of Blitz 16, the Commodore game I used to play with.
+      You can play the original on the web at
+      http://plus4world.powweb.com/software/Blitz_16
+
+Jochen Voss
+      The author of moon-buggy, it is a very good console game.
+
+Janos Lenart
+      For the idea. And for testing, bug reports.
+
+Thimo Neubauer
+      For alpha helps.
+
+Peter Risko
+      He gave me the original idea of console games, and he found the
+      moon-buggy in debian potato.  For lot of testing and bug reports
+      about version 0.1 and later.

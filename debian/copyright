@@ -1,19 +1,24 @@
 This package was debianized by RISKO Gergely <risko@debian.org> on
 Sat, 21 Oct 2000 22:58:55 +0200.
 
-It was downloaded from http://www.atom.hu/~risko/bombardier/
+The source code is maintained together with the debianization.  You
+can find both here: git://git.debian.org/collab-maint/bombardier.git
 
-Copyright: RISKO Gergely <risko@debian.org>
+From bombardier.c:
+/* Bombardier */
+/* The GNU Bombing utility */
+/* Copyright (C) 2001, 2009 Gergely Risko */
+/* Can be licensed under the terms of GPL v3 or above */
 
-This program is free software; you may redistribute it and/or modify
-it under the terms of the GNU General Public License as published by
-the Free Software Foundation; either version 2, or (at your option)
-any later version.
+/* This program is free software: you can redistribute it and/or modify */
+/* it under the terms of the GNU General Public License as published by */
+/* the Free Software Foundation, either version 3 of the License, or */
+/* (at your option) any later version. */
 
-This is distributed in the hope that it will be useful, but without
-any warranty; without even the implied warranty of merchantability or
-fitness for a particular purpose. See the GNU General Public License
-for more details.
+/* This program is distributed in the hope that it will be useful, */
+/* but WITHOUT ANY WARRANTY; without even the implied warranty of */
+/* MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the */
+/* GNU General Public License for more details. */
 
-A copy of the GNU General Public License is available as
-/usr/share/common-licenses/GPL in the Debian GNU/Linux distribution.
+On Debian systems, the complete text of the GNU General Public License
+version 3 is found in `/usr/share/common-licenses/GPL-3'.

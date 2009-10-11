@@ -1,0 +1,8 @@
+*.o
+bombardier
+build-stamp
+debian/tmp
+debian/*.debhelper
+debian/*debhelper.log
+debian/*substvars
+debian/files
