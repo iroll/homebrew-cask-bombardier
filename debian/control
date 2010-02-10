@@ -9,7 +9,7 @@ Vcs-Git: git://git.debian.org/collab-maint/bombardier.git
 
 Package: bombardier
 Architecture: any
-Depends: ${shlibs:Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
 Description: The GNU Bombing utility
  This game is the same as the old Blitz16 game on Commodore 16/Plus 4,
  written by Simon Taylor.

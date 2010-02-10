@@ -17,7 +17,7 @@ install: build
 	dh_testdir
 	dh_testroot
 	dh_prep
-	dh_installdirs
+	dh_installdirs var/games
 	$(MAKE) install DESTDIR=`pwd`/debian/tmp
 
 binary-indep: build install
