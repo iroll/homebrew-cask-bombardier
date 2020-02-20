@@ -5,14 +5,15 @@
 
 CC=gcc
 CFLAGS=-Wall -g -O2 -pedantic
-LDFLAGS=-lncurses -g
+LDFLAGS=-g
+LIBS=-lncurses
 OBJS=bombardier.o display.o date.o randomhouse.o step.o hof.o signal.o gcurses.o
 DESTDIR=/
 
 all: bombardier
 
 bombardier: $(OBJS)
-	$(CC) $(LDFLAGS) -o $@ $(OBJS)
+	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)
 
 clean:
 	rm -f $(OBJS) bombardier
