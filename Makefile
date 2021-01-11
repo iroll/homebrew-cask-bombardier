@@ -3,12 +3,12 @@
 # Copyright (C) 2001, 2009 Gergely Risko
 # Can be licensed under the terms of GPL v3 or above
 
-CC=gcc
-CFLAGS=-Wall -g -O2 -pedantic
-LDFLAGS=-g
+CC ?= gcc
+CFLAGS ?= -Wall -g -O2 -pedantic
+LDFLAGS ?= -g
 LIBS=-lncurses
 OBJS=bombardier.o display.o date.o randomhouse.o step.o hof.o signal.o gcurses.o
-DESTDIR=/
+DESTDIR ?= /
 
 all: bombardier
 
