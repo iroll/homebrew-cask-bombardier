@@ -13,7 +13,7 @@ DESTDIR ?= /
 all: bombardier
 
 bombardier: $(OBJS)
-	$(CC) $(LDFLAGS) -o $@ $(OBJS) $(LIBS)
+	$(CC) -o $@ $(OBJS) $(LDFLAGS) $(LIBS)
 
 clean:
 	rm -f $(OBJS) bombardier

@@ -2,8 +2,10 @@ bombardier (0.8.3+nmu3) unstable; urgency=medium
 
   * Non-maintainer upload.
   * debian/rules: Migrate to dh syntax.
+  * Makefile: Fix FTBFS with ld.gold. (Closes: #611647)
+  * Makefile: Also accept external build environment variables.
 
- -- Boyuan Yang <byang@debian.org>  Mon, 11 Jan 2021 18:33:58 -0500
+ -- Boyuan Yang <byang@debian.org>  Mon, 11 Jan 2021 18:40:39 -0500
 
 bombardier (0.8.3+nmu2) unstable; urgency=medium
 
