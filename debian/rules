@@ -11,3 +11,7 @@ include /usr/share/dpkg/buildtools.mk
 
 override_dh_fixperms:
 	dh_fixperms -Xgames/bombardier
+
+execute_after_dh_auto_install:
+	# Let postinst handle content
+	$(RM) -r $(CURDIR)/debian/bombardier/var/games/bombardier
