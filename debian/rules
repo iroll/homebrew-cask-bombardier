@@ -1,43 +1,7 @@
 #!/usr/bin/make -f
 
-build: build-stamp
-build-stamp:
-	dh_testdir
-	dh_auto_build
-	touch build-stamp
+%:
+	dh $@
 
-clean:
-	dh_testdir
-	dh_testroot
-	rm -f build-stamp
-	$(MAKE) clean
-	dh_clean
-
-install: build
-	dh_testdir
-	dh_testroot
-	dh_prep
-	dh_installdirs var/games
-	$(MAKE) install DESTDIR=`pwd`/debian/tmp
-
-binary-indep: build install
-
-binary-arch: build install
-	dh_testdir
-	dh_testroot
-	dh_install
-	dh_installdocs
-	dh_installmenu
-	dh_installman
-	dh_installchangelogs
-	dh_strip
-	dh_compress
+override_dh_fixperms:
 	dh_fixperms -Xgames/bombardier
-	dh_installdeb
-	dh_shlibdeps
-	dh_gencontrol
-	dh_md5sums
-	dh_builddeb
-
-binary: binary-indep binary-arch
-.PHONY: build clean binary-indep binary-arch binary install
