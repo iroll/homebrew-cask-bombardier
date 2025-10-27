@@ -1,18 +1,23 @@
 Source: bombardier
 Section: games
 Priority: optional
-Maintainer: RISKO Gergely <risko@debian.org>
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Uploaders:
+ Alexandre Detiste <tchet@debian.org>,
+ RISKO Gergely <risko@debian.org>,
 Build-Depends:
  debhelper-compat (= 13),
  libncurses-dev,
 Rules-Requires-Root: binary-targets
-Standards-Version: 4.5.1
-Vcs-Browser: https://salsa.debian.org/debian/bombardier
-Vcs-Git: https://salsa.debian.org/debian/bombardier.git
+Standards-Version: 4.7.2
+Vcs-Browser: https://salsa.debian.org/games-team/bombardier
+Vcs-Git: https://salsa.debian.org/games-team/bombardier.git
 
 Package: bombardier
 Architecture: any
-Depends: ${shlibs:Depends}, ${misc:Depends}
+Depends:
+ ${misc:Depends},
+ ${shlibs:Depends},
 Description: The GNU Bombing utility
  This game is the same as the old Blitz16 game on Commodore 16/Plus 4,
  written by Simon Taylor.
