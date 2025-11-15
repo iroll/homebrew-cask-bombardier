@@ -1,3 +1,9 @@
+bombardier (0.8.4) unstable; urgency=medium
+
+  * Salvage game inside Games Team (Closes: #1118782)
+
+ -- Alexandre Detiste <tchet@debian.org>  Sat, 15 Nov 2025 20:31:27 +0100
+
 bombardier (0.8.3+nmu4) unstable; urgency=medium
 
   * Non-maintainer upload.
