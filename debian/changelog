@@ -1,3 +1,11 @@
+bombardier (0.8.5) unstable; urgency=medium
+
+  * Disable useless Salsa CI jobs
+  * Bump Standards-Version to 4.7.3, drop Priority: tag
+  * Copyright review, rewrite in machine-parsable format
+
+ -- Alexandre Detiste <tchet@debian.org>  Sun, 28 Dec 2025 19:01:28 +0100
+
 bombardier (0.8.4) unstable; urgency=medium
 
   * Salvage game inside Games Team (Closes: #1118782)
@@ -161,4 +169,3 @@ bombardier (0.1-1) unstable; urgency=low
   * Initial Release.
 
  -- Gergely Risko <risko@atom.hu>  Sat, 21 Oct 2000 23:43:00 +0200
-
