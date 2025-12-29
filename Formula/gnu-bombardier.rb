@@ -3,7 +3,7 @@ class GnuBombardier < Formula
   homepage "https://salsa.debian.org/games-team/bombardier"
   url "https://salsa.debian.org/games-team/bombardier.git",
       tag: "debian/0.8.3+nmu4",
-      revision: "804d17ec71820b281f4ee3bfa3938828024c29f2"
+      revision: "fdfc6ff8f7edfc4d5e76f97a729a99f45ad07ceb"
   version "0.8.3.4"
   license "GPL-3.0-or-later"
   head "https://salsa.debian.org/games-team/bombardier.git", branch: "master"
